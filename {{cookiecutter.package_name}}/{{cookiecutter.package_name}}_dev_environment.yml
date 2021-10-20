@@ -1,0 +1,9 @@
+name: {{cookiecutter.package_name}}_dev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pytest
+  - black
+  - flake8
+  - ipython
